@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T17:31:33 IST" name="Suite" finished-at="2021-10-20T17:31:52 IST" duration-ms="18476">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T17:31:33 IST" name="App test" finished-at="2021-10-20T17:31:33 IST" duration-ms="17">
+    </test> <!-- App test -->
+    <test started-at="2021-10-20T17:31:33 IST" name="Validate Title" finished-at="2021-10-20T17:31:45 IST" duration-ms="11088">
+      <class name="Academy.E2E.validateNavTitle">
+        <test-method is-config="true" signature="intilize()[pri:0, instance:Academy.E2E.validateNavTitle@4d4d8fcf]" started-at="2021-10-20T17:31:33 IST" name="intilize" finished-at="2021-10-20T17:31:44 IST" duration-ms="10910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilize -->
+        <test-method signature="title()[pri:0, instance:Academy.E2E.validateNavTitle@4d4d8fcf]" started-at="2021-10-20T17:31:44 IST" name="title" finished-at="2021-10-20T17:31:44 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="sleep()[pri:0, instance:Academy.E2E.validateNavTitle@4d4d8fcf]" started-at="2021-10-20T17:31:44 IST" name="sleep" finished-at="2021-10-20T17:31:45 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleep -->
+      </class> <!-- Academy.E2E.validateNavTitle -->
+    </test> <!-- Validate Title -->
+    <test started-at="2021-10-20T17:31:33 IST" name="Validate navigation" finished-at="2021-10-20T17:31:49 IST" duration-ms="15493">
+      <class name="Academy.E2E.ValidateNav">
+        <test-method is-config="true" signature="intilize()[pri:0, instance:Academy.E2E.ValidateNav@378bd86d]" started-at="2021-10-20T17:31:33 IST" name="intilize" finished-at="2021-10-20T17:31:49 IST" duration-ms="15253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilize -->
+        <test-method signature="visiableNavBar()[pri:0, instance:Academy.E2E.ValidateNav@378bd86d]" started-at="2021-10-20T17:31:49 IST" name="visiableNavBar" finished-at="2021-10-20T17:31:49 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visiableNavBar -->
+        <test-method is-config="true" signature="sleep()[pri:0, instance:Academy.E2E.ValidateNav@378bd86d]" started-at="2021-10-20T17:31:49 IST" name="sleep" finished-at="2021-10-20T17:31:49 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleep -->
+      </class> <!-- Academy.E2E.ValidateNav -->
+    </test> <!-- Validate navigation -->
+    <test started-at="2021-10-20T17:31:33 IST" name="Validate Home Page" finished-at="2021-10-20T17:31:52 IST" duration-ms="18476">
+      <class name="Academy.E2E.HomePage1">
+        <test-method is-config="true" signature="intilize()[pri:0, instance:Academy.E2E.HomePage1@3a71c100]" started-at="2021-10-20T17:31:33 IST" name="intilize" finished-at="2021-10-20T17:31:37 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilize -->
+        <test-method signature="intilization(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2E.HomePage1@3a71c100]" started-at="2021-10-20T17:31:37 IST" name="intilization" data-provider="getData" finished-at="2021-10-20T17:31:49 IST" duration-ms="12462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emailId@Login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilization -->
+        <test-method signature="intilization(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2E.HomePage1@3a71c100]" started-at="2021-10-20T17:31:49 IST" name="intilization" data-provider="getData" finished-at="2021-10-20T17:31:52 IST" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login@id]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilization -->
+        <test-method is-config="true" signature="sleep()[pri:0, instance:Academy.E2E.HomePage1@3a71c100]" started-at="2021-10-20T17:31:52 IST" name="sleep" finished-at="2021-10-20T17:31:52 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleep -->
+      </class> <!-- Academy.E2E.HomePage1 -->
+    </test> <!-- Validate Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>

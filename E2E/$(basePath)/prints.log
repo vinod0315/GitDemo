@@ -1,0 +1,7 @@
+17:31:44:0836 [TestNG-tests-1] INFO  resources.Base1 - Navigated to Home Page
+17:31:44:0908 [TestNG-tests-1] INFO  resources.Base1 - Successfully validated Text Message
+17:31:49:0064 [TestNG-tests-2] INFO  resources.Base1 - Non Restricted user
+17:31:51:0577 [TestNG-tests-2] INFO  resources.Base1 - Restricted user
+17:31:52:0590 [AsyncHttpClient-1-8] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-8
+17:31:52:0590 [AsyncHttpClient-1-5] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+17:31:52:0590 [AsyncHttpClient-1-9] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-9
